@@ -5,13 +5,6 @@ on:
     branches:
       - main
 
-name: Terraform CI/CD
-
-on:
-  push:
-    branches:
-      - main
-
 jobs:
   terraform:
     runs-on: ubuntu-latest
